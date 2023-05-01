@@ -23,7 +23,7 @@ export const Profile = ({
       <Wrapper>
         <Img src={avatar} alt="User avatar" />
         <ParagraphName>{username}</ParagraphName>
-        <Paragrap>@{tag}</Paragrap>
+        <Paragrap>{tag}</Paragrap>
         <Paragrap>{location}</Paragrap>
       </Wrapper>
       <ListStats>
